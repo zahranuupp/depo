@@ -1,7 +1,7 @@
-php:
+
 <?php 
 
-$dosya_adi = "bilgi.txt"; 
+$dosya_adi = "/bilgi.txt"; 
 
 $dosya = fopen ($dosya_adi , `w`) or die ("Dosya açılamadı!"); 
 
