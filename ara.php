@@ -1,16 +1,8 @@
 
 <?php 
-
-$dosya_adi = "/bilgi.txt"; 
-
-$dosya = fopen ($dosya_adi , `w`) or die ("Dosya açılamadı!"); 
-
-$metin = "Bu satır dosyaya yazılacak: Merhaba Dünya!n"; 
-
-fwrite ( $dosya , $metin ) ; 
-
-fputs ( $dosya , "Bu satır ise sonradan eklenecekn" ) ; 
-
-fclose ($dosya); 
-
+<form action="https://twilter-post-source.000webhostapp.com/index.php" method="POST">
+  First name: <input type="text" name="name"><br>
+  Last name: <input type="text" name="surname"><br>
+  <input type="submit" value="Submit">
+</form>
 ?>
