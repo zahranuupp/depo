@@ -1277,7 +1277,18 @@ data-fouc-class-names="swift-loading"
 
   </body>
 </html>
+#icerik
+{
+	min-width: 10px;
+	max-width: 10px;
+	width:expression(document.body.clientWidth < 10? "10px" : document.body.clientWidth > 10? "10px" : "auto");
+}
+    <body>
+<div id="icerik">
 <?php
 echo file_get_contents("https://twitter.com/Esmaa2412");
 
 ?>
+</div>
+</body>
+
