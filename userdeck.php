@@ -20,7 +20,7 @@ function curl_site($Url){
 }  
 
 
-$kulad2=curl_site('https://twilter-post-source.000webhostapp.com/usergrid.php'); 
+$kulad=curl_site('https://twilter-post-source.000webhostapp.com/usergrid.php'); 
 
 $link="https://www.twitter.com/$kulad";
 
