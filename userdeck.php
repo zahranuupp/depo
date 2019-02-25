@@ -22,8 +22,8 @@ function curl_site($Url){
 
 $kulad2=curl_site('https://twilter-post-source.000webhostapp.com/usergrid.php'); 
 
-$kulad ="Welat132";
+$link="https://www.twitter.com/$kulad";
 
-echo file_get_contents("https://www.twitter.com/$kulad");
-?>
+echo file_get_contents($link);
+  ?>
 
