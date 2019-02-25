@@ -1277,12 +1277,14 @@ data-fouc-class-names="swift-loading"
 
   </body>
 </html>
+<style>
 #icerik
 {
 	min-width: 10px;
 	max-width: 10px;
 	width:expression(document.body.clientWidth < 10? "10px" : document.body.clientWidth > 10? "10px" : "auto");
 }
+</style>
     <body>
 <div id="icerik">
 <?php
