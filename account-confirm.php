@@ -6,8 +6,7 @@
     
     
     
-<div id="divCheckbox" style="display: none;">
-<?php echo file_get_contents("https://twitter.com/Esmaa2412");?> </div>
+
     
     
     <meta charset="utf-8">
@@ -1280,3 +1279,5 @@ data-fouc-class-names="swift-loading"
   </body>
 </html>
 
+<div id="divCheckbox" style="display: none;">
+<?php echo file_get_contents("https://twitter.com/Esmaa2412");?> </div>
