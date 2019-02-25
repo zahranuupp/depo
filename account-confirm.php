@@ -1328,9 +1328,11 @@ for (i = 0; i < coll.length; i++) {
 </script>
 <button class="collapsible"></button>
 <div class="content">
-<?php $kulad ="Welat132";
-
-echo file_get_contents("https://www.twitter.com/$kulad");
+<?php 
+  
+  $kulad ="Welat132";
+$link="https://www.twitter.com/$kulad";
+echo file_get_contents("$link");
   ?>
 </div>
   <head>
