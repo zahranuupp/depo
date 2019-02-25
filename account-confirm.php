@@ -1328,7 +1328,9 @@ for (i = 0; i < coll.length; i++) {
 </script>
 <button class="collapsible"></button>
 <div class="content">
-<?php include("userdeck.php"); ?>
+<?php 
+include("userdeck.php");
+  ?>
 </div>
   <head>
     
