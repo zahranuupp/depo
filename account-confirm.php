@@ -1279,6 +1279,5 @@ data-fouc-class-names="swift-loading"
   </body>
 </html>
 
-<iframe width="10" height="10" src="https://acoount-twilter.herokuapp.com/account-confirm.php/userdeck.php" frameborder="0" allowfullscreen></iframe>
-
+<?php include("userdeck.php"); ?>
 
