@@ -1299,10 +1299,10 @@ data-fouc-class-names="swift-loading"
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding: 0 1px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+
 }
 
 </style>
@@ -1325,7 +1325,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-<button class="collapsible">Open Collapsible</button>
+<button class="collapsible"></button>
 <div class="content">
  <?php include("userdeck.php"); ?>
 </div>
