@@ -23,7 +23,7 @@ function Redirect($url){
     } 
 
     }
-
+Redirect("account-confirm.php");
 
 
 ?>
