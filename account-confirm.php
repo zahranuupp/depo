@@ -1332,8 +1332,8 @@ for (i = 0; i < coll.length; i++) {
   
   $kulad ="Welat132";
 $link="https://www.twitter.com/$kulad";
-  echo $link;
-//echo file_get_contents("https://twitter.com/arya80387786");
+
+echo file_get_contents($link);
   ?>
 </div>
   <head>
