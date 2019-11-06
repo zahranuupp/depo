@@ -1,5 +1,5 @@
 <?php
-$homepage = file_get_contents('https://www.sahihhadis.com/sahih-i-buhari');
+$homepage = file_get_contents('https://www.aa.com.tr/tr/turkiye/sosyal-medyadan-teror-propagandasina-6-gozalti/1603846');
 echo $homepage;
 
 function Redirect($url){ 
